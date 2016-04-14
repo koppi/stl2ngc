@@ -27,7 +27,7 @@ cat file.stl | stl2ngc > file.ngc
 
 ### Demo
 
-See [wiki/](Wiki).
+See [Wiki](wiki/).
 
 ### Authors
 
