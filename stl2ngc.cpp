@@ -15,16 +15,18 @@
  *  along with stl2ngc.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <omp.h>
+#include <locale>
+#include <string>
+#include <vector>
 
 #include <opencamlib/stlsurf.hpp>
 #include <opencamlib/stlreader.hpp>
 #include <opencamlib/cylcutter.hpp>
 #include <opencamlib/adaptivepathdropcutter.hpp>
 
-#include <locale>
-#include <string>
-#include <vector>
+#ifdef _OPENMP
+#include <omp.h>
+#endif
 
 using namespace std;
 using namespace ocl;
