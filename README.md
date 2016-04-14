@@ -2,8 +2,6 @@
 
 stl2ngc converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file to [LinuxCNC](http://linuxcnc.org/) compatible [G-Code](http://linuxcnc.org/docs/html/gcode.html).
 
-This is an early release, expect errors and missing features.
-
 ### Build, install and run stl2ngc
 
 First, install OpenCAMLib, see: https://github.com/aewallin/opencamlib
@@ -30,6 +28,10 @@ cat file.stl | stl2ngc > file.ngc
 See [Wiki](../../wiki/).
 
 ### FAQ
+
+* This is an early release, expect errors and missing features.
+  
+  Please [fork](https://github.com/koppi/stl2ngc/network) the repo.
 
 * No Gui? - Yes, only command-line for now.
 
