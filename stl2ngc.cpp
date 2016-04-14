@@ -1,3 +1,20 @@
+/*  
+ *  Copyright 2016 Jakob Flierl (jakob.flierl "at" gmail.com)
+ *  
+ *  stl2ngc is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  stl2ngc is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with stl2ngc.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 #include <omp.h>
 
 #include <opencamlib/stlsurf.hpp>
@@ -91,6 +108,11 @@ int main(int argc, char* argv[]) {
     double corner = 0; // d
 
     locale::global(locale("C"));
+
+    cerr << "stl2ngc  Copyright (C) 2016  Jakob Flierl" << endl;
+    cerr << "This program comes with ABSOLUTELY NO WARRANTY;" << endl;
+    cerr << "This is free software, and you are welcome to redistribute it"<< endl;
+    cerr << "under certain conditions." << endl << endl;
 
     //assert(argc == 2);
     //assert(argv[1]);
