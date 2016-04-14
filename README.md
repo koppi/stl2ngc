@@ -1,5 +1,7 @@
 ## Introduction
 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)(http://koppi.github.io/paypal)
+
 stl2ngc converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file to [LinuxCNC](http://linuxcnc.org/) compatible [G-Code](http://linuxcnc.org/docs/html/gcode.html).
 
 ### Build, install and run stl2ngc
@@ -33,7 +35,7 @@ See [Wiki](../../wiki/).
   
   Please [fork](https://github.com/koppi/stl2ngc/network) the repo.
 
-* No Gui? - Yes, only command-line for now.
+* No Gui? - Yes, only command-line for no
 
 ### Authors
 
