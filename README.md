@@ -1,6 +1,6 @@
-## Introduction
+Please [![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](http://koppi.github.io/paypal)
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)(http://koppi.github.io/paypal)
+## Introduction
 
 stl2ngc converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file to [LinuxCNC](http://linuxcnc.org/) compatible [G-Code](http://linuxcnc.org/docs/html/gcode.html).
 
