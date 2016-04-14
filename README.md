@@ -25,13 +25,9 @@ To convert ```file.stl``` to ```file.ngc``` run:
 cat file.stl | stl2ngc > file.ngc
 ```
 
-To preview ```file.ngc``` you can install an run CAMotics, see:
-
 ### Demo
 
 See [wiki/](Wiki).
-
-http://camotics.org/
 
 ### Authors
 
