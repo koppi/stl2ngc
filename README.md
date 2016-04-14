@@ -29,6 +29,10 @@ cat file.stl | stl2ngc > file.ngc
 
 See [Wiki](../../wiki/).
 
+### FAQ
+
+* No Gui? - Yes, only command-line for now.
+
 ### Authors
 
 * https://github.com/koppi
