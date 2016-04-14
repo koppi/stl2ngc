@@ -1,6 +1,6 @@
 ## Introduction
 
-stl2ngc converts an stl file to LinuxCNC compatible GCode.
+stl2ngc converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file to [LinuxCNC](http://linuxcnc.org/) compatible [G-Code](http://linuxcnc.org/docs/html/gcode.html).
 
 This is an early release, expect errors and missing features.
 
