@@ -33,7 +33,7 @@ See [Wiki](../../wiki/).
   
   Please [fork](https://github.com/koppi/stl2ngc/network) the repo.
 
-* No Gui? - Yes, only command-line for no
+* No Gui? - Yes, only command-line for now.
 
 ### Authors
 
