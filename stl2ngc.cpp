@@ -18,6 +18,7 @@
 #include <locale>
 #include <string>
 #include <vector>
+#include <iomanip>
 
 #include <opencamlib/stlsurf.hpp>
 #include <opencamlib/stlreader.hpp>
@@ -116,6 +117,12 @@ int main(int argc, char* argv[]) {
     cerr << "This is free software, and you are welcome to redistribute it"<< endl;
     cerr << "under certain conditions." << endl << endl;
 
+    cout.setf(ios::fixed, ios::floatfield);
+    cout.setf(ios::showpoint);
+
+    cerr.setf(ios::fixed, ios::floatfield);
+    cerr.setf(ios::showpoint);
+
     //assert(argc == 2);
     //assert(argv[1]);
     
@@ -183,14 +190,14 @@ int main(int argc, char* argv[]) {
 
         BOOST_FOREACH(Point cp, pts) {
             double z = - fmin(-cp.z, -zcurr) - s.bb.maxpt.z;
-            if (!isNearlyEqual(z, 0)) {
+            //if (!isNearlyEqual(z, 0)) {
                 if (fst) {
                     w.g0(cp.x, cp.y, zsafe);
                     w.g0(cp.x, cp.y, 0);
                     fst = false;
                 }
                 w.g1(cp.x, cp.y, z);
-            }
+                //}
         }
         
         zcurr -= zstep;
