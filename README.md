@@ -1,5 +1,7 @@
 ## Introduction
 
+[![Join the chat at https://gitter.im/koppi/stl2ngc](https://badges.gitter.im/koppi/stl2ngc.svg)](https://gitter.im/koppi/stl2ngc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 stl2ngc converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file to [LinuxCNC](http://linuxcnc.org/) compatible [G-Code](http://linuxcnc.org/docs/html/gcode.html).
 
 ### Build, install and run stl2ngc
