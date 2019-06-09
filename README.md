@@ -8,6 +8,7 @@ stl2ngc converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file 
 
 First, install OpenCAMLib, see: https://github.com/aewallin/opencamlib
 ```bash
+sudo apt -y install cmake doxygen libboost-all-dev
 git clone https://github.com/aewallin/opencamlib && cd opencamlib
 mkdir build && cd build && cmake ../src && make -j4
 sudo make install
