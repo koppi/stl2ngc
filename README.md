@@ -12,6 +12,7 @@ sudo apt -y install cmake doxygen libboost-all-dev
 git clone https://github.com/aewallin/opencamlib && cd opencamlib
 mkdir build && cd build && cmake ../src && make -j4
 sudo make install
+sudo cp build/libocl.so.* /usr/lib
 ```
 
 Next, checkout stl2ngc from git and run make and sudo make install:
