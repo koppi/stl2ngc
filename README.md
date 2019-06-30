@@ -22,9 +22,9 @@ make
 sudo make install
 ```
 
-To convert ```file.stl``` to ```file.ngc``` run:
+To convert ```example.stl``` to ```example.ngc``` run:
 ```bash
-cat file.stl | stl2ngc > file.ngc
+cat example.stl | stl2ngc > example.ngc
 ```
 
 ### Demo
