@@ -6,7 +6,7 @@ stl2ngc converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file 
 
 ### Build, install and run stl2ngc
 
-First, install OpenCAMLib, see: https://github.com/aewallin/opencamlib
+First, install OpenCAMLib, (see: https://github.com/aewallin/opencamlib ):
 ```bash
 sudo apt -y install cmake doxygen libboost-all-dev
 git clone https://github.com/aewallin/opencamlib && cd opencamlib
@@ -41,6 +41,5 @@ See [Wiki](../../wiki/).
 
 ### Authors
 
-* Jakob Flierl
+* [Jakob Flierl](https://github.com/koppi)
 
-[![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](http://koppi.github.io/paypal)
