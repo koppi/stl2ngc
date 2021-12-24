@@ -1,37 +1,33 @@
-## Introduction
+# stl2ngc
 
-[![Join the chat at https://gitter.im/koppi/stl2ngc](https://badges.gitter.im/koppi/stl2ngc.svg)](https://gitter.im/koppi/stl2ngc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+stl2ngc converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file to [LinuxCNC](http://linuxcnc.org/) compatible [G-code](http://linuxcnc.org/docs/html/gcode.html).
 
-stl2ngc converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file to [LinuxCNC](http://linuxcnc.org/) compatible [G-Code](http://linuxcnc.org/docs/html/gcode.html).
+## Clone, build, install and run stl2ngc
 
-### Build, install and run stl2ngc
-
-First, install OpenCAMLib, (see: https://github.com/aewallin/opencamlib ):
+First, install OpenCAMLib, see: https://github.com/aewallin/opencamlib
 ```bash
-sudo apt -y install cmake doxygen libboost-all-dev
 git clone https://github.com/aewallin/opencamlib && cd opencamlib
 mkdir build && cd build && cmake ../src && make -j4
 sudo make install
-sudo cp libocl.so.* /usr/lib
 ```
 
-Next, checkout stl2ngc from git and run make and sudo make install:
+Next, checkout ```stl2ngc``` from git and run ```make``` and ```sudo make install```:
 ```bash
 git clone https://github.com/koppi/stl2ngc && cd stl2ngc
 make
 sudo make install
 ```
 
-To convert ```example.stl``` to ```example.ngc``` run:
+To convert ```file.stl``` to ```file.ngc``` run:
 ```bash
-cat example.stl | stl2ngc > example.ngc
+cat file.stl | stl2ngc > file.ngc
 ```
 
-### Demo
+## Demo
 
 See [Wiki](../../wiki/).
 
-### FAQ
+## FAQ
 
 * This is an early release, expect errors and missing features.
   
@@ -39,7 +35,6 @@ See [Wiki](../../wiki/).
 
 * No Gui? - Yes, only command-line for now.
 
-### Authors
+## Author
 
-* [Jakob Flierl](https://github.com/koppi)
-
+* **Jakob Flierl** - [koppi](https://github.com/koppi)
