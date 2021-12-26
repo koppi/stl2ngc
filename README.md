@@ -1,8 +1,8 @@
 # stl2ngc
 
-stl2ngc converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file to [LinuxCNC](http://linuxcnc.org/) compatible [G-code](http://linuxcnc.org/docs/html/gcode.html).
+The ```stl2ngc``` program converts an [STL](https://en.wikipedia.org/wiki/STL_(file_format)) file to [LinuxCNC](http://linuxcnc.org/) compatible [G-code](http://linuxcnc.org/docs/html/gcode.html).
 
-## Clone, build, install and run stl2ngc
+## Clone, build, install and run
 
 First, install OpenCAMLib, see: https://github.com/aewallin/opencamlib
 ```bash
