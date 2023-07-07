@@ -4,12 +4,29 @@ The ```stl2ngc``` program converts an [STL](https://en.wikipedia.org/wiki/STL_(f
 
 ## Clone, build, install and run
 
-First, install OpenCAMLib, see: https://github.com/aewallin/opencamlib
+First, install OpenCAMLib, see: https://github.com/aewallin/opencamlib#building-for-c
 ```bash
-git clone https://github.com/aewallin/opencamlib && cd opencamlib
-mkdir build && cd build && cmake ../src && make -j4
-sudo make install
-sudo cp libocl.so.* /usr/lib
+git clone https://github.com/aewallin/opencamlib
+cd opencamlib
+mkdir build
+cd build
+cmake .. -D CXX_LIB="ON"
+make . # try make -j4 for a faster build if you have a multi-core machine
+make install .
+```
+
+or use a prebuilt release:
+
+```bash
+cd Downloads/
+wget https://github.com/aewallin/opencamlib/releases/download/2023.01.11/linux-cxx-x86_64.zip
+unzip linux-cxx-x86_64.zip && sudo cp -rpv prebuilds/linux-cxx-x86_64/* /usr
+```
+and as root (```su -```):
+
+```bash
+echo '/usr/lib/opencamlib' > /etc/ld.so.conf.d/opencamlib.conf
+ldconfig
 ```
 
 Next, checkout ```stl2ngc``` from git and run ```make``` and ```sudo make install```:
