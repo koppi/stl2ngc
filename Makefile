@@ -1,5 +1,5 @@
 CXXFLAGS+=-Wall -O3 -fopenmp -std=gnu++11
-LDFLAGS +=-L/usr/local/lib/opencamlib
+LDFLAGS +=-L/usr/lib/opencamlib
 LDLIBS  +=-locl
 
 all: stl2ngc
@@ -7,7 +7,7 @@ all: stl2ngc
 #	upx -9 stl2ngc
 
 install: stl2ngc
-	install -o root -g root stl2ngc /usr/local/bin
+	install -o root -g root stl2ngc /usr/bin
 
 clean:
 	/bin/rm -f stl2ngc
